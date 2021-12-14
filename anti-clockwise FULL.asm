@@ -16,23 +16,23 @@
            
        ;anti-CLOCK-WISE FULL DRIVE
        ;2-WING ON
-   L1: mov AL,00001001B   ;03H
+   L1: mov AL,00001001B   ;09H
        OUT PORTA,AL
        CALL DELAY
        
        
-       mov AL,00000011B   ;06
+       mov AL,00000011B   ;03H
        OUT PORTA,AL
        CALL DELAY
        
 
 
-       mov AL,00000110B    ;0C  
+       mov AL,00000110B    ;06H  
        OUT PORTA,AL
        CALL DELAY
         
         
-       mov AL,00001100B   ;09
+       mov AL,00001100B   ;0CH
        OUT PORTA,AL
        CALL DELAY  
        
