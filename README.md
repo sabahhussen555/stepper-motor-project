@@ -4,6 +4,7 @@
 - Code Flow
 - Used Devices
 - Components discription
+- used software
 ## Introduction
 - in order to run the circuit you have to install at least proteus vertion 8.9 .
 - run the code in the emu8086
@@ -75,3 +76,9 @@
   
 .
 ![103941080-04c4f580-5137-11eb-8321-8c2f3d31264e](https://user-images.githubusercontent.com/47755059/147296966-64339009-3122-46e9-9774-695d0097a020.jpeg)
+
+## used software
+1. Protues
+2. 8086 emulator with MASM
+3. GitHub
+4. Git
