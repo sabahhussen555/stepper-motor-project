@@ -15,7 +15,8 @@
 .STARTUP
 
 MOV AL,10000010B     ;PORT A & PORT C OUTPUT , PORT B INPUT , MODE 0
-OUT CWR,AL
+OUT CWR,AL 
+
 ;---------------------------
  MAIN:
 		
@@ -44,25 +45,25 @@ ROTATECLK PROC
      loop1:  mov AL,00001100B    ;09H
        OUT PORTA,AL
        CALL DELAY
-       
+       CALL TEST_SWITCHES 
        
        mov AL,00000110B    ;03H
        OUT PORTA,AL
        CALL DELAY
-       
+       CALL TEST_SWITCHES 
 
 
        mov AL,00000011B  ;06H  
        OUT PORTA,AL
        CALL DELAY
-        
+       CALL TEST_SWITCHES   
         
        mov AL,00001001B   ;0CH
        OUT PORTA,AL
        CALL DELAY  
-        
-   
-      CALL TEST_SWITCHES                
+       CALL TEST_SWITCHES   
+                        
+                                       
       JMP loop1		;loop for ever   
               
           RET
@@ -73,29 +74,29 @@ ROTATECLK PROC
 ;-----------------------------------
 ROTATEANTI PROC  
       
-     ;full-mode antiClock-wise high speed                       
+     ;full-mode antiClock-wise high speed 
+                           
    loop2: mov AL,00001001B   ;09H
        OUT PORTA,AL
        CALL DELAY
-       
+       CALL TEST_SWITCHES  
        
        mov AL,00000011B   ;03H
        OUT PORTA,AL
        CALL DELAY
-       
+       CALL TEST_SWITCHES  
 
 
        mov AL,00000110B    ;06H  
        OUT PORTA,AL
        CALL DELAY
-        
+       CALL TEST_SWITCHES   
         
        mov AL,00001100B   ;0CH
        OUT PORTA,AL
        CALL DELAY 
-       
-    
-      CALL TEST_SWITCHES                
+       CALL TEST_SWITCHES 
+                    
       JMP loop2		;loop for ever  
        
           RET
