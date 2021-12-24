@@ -18,10 +18,10 @@ MOV AL,10000010B     ;PORT A & PORT C OUTPUT , PORT B INPUT , MODE 0
 OUT CWR,AL
 ;---------------------------
  MAIN:
- ;CMP START_FLAG,0
- ;JZ STOP		
- STOP:   
- CALL TEST_SWITCHES                
+		
+  
+ CALL TEST_SWITCHES  
+               
  JMP MAIN		;loop for ever 
 
 ;-------------------------
@@ -61,7 +61,7 @@ ROTATECLK PROC
        OUT PORTA,AL
        CALL DELAY  
         
-      STOP1:   
+   
       CALL TEST_SWITCHES                
       JMP loop1		;loop for ever   
               
@@ -94,7 +94,7 @@ ROTATEANTI PROC
        OUT PORTA,AL
        CALL DELAY 
        
-       STOP2:   
+    
       CALL TEST_SWITCHES                
       JMP loop2		;loop for ever  
        
@@ -107,7 +107,7 @@ ROTATEANTI PROC
                                               
     STOPING PROC			;Defining STOPING Function
 	loop3:  
-	  STOP3:   
+	   
       CALL TEST_SWITCHES                
       JMP loop3		;loop for ever
 	 RET
@@ -120,17 +120,17 @@ TEST_SWITCHES PROC    	      ;check the input switches
 IN AL,PORTB
 
 test AL,00000001B 		      ;check if the CLK full-mode  switch has been pressed 
-JNZ L1 	                      ;jump to lable LL
+JNZ L1 	                      ;jump to lable L1
 CALL ROTATECLK 
 
 L1:
 test AL,00000010B		      ;check if the ANTICLK switch has been pressed 
-JNZ L2                        ;jump to lable LLL
+JNZ L2                        ;jump to lable L2
 CALL ROTATEANTI
 
 L2:
 test AL,00000100B		     ;check if the stop switch has been pressed 
-JNZ L3                     ;jump to lable LLLL
+JNZ L3                     ;jump to lable L3
 CALL STOPING
 
 
