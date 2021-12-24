@@ -52,8 +52,8 @@ A typical stepping action causes the motor to step through a sequence of equilib
 - Half Step
 #### Wave Step Mode
 Wave step mode is the simplest of all other modes in which only one winding is energized at any given time. Each coil of the phase is connected to the supply alternatively. The table below shows the order through which coils are energized in a 4-phase stepper motor.
-
 In this mode motor gives maximum step angle compared to all other modes. It is the simplest and most commonly used mode for stepping; however the torque produced is less as it uses some part of the total winding at a given time.
+
 ![Steping-Mode-of-Stepper-Motors-Signal-Sequence-of-Wave-Step-Drive](https://user-images.githubusercontent.com/47756597/147374323-433cc6d6-c497-43c9-8840-6500251e52b9.jpg)
 
 ## Used Software
