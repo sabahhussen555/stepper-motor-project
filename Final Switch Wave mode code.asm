@@ -11,7 +11,7 @@
    
              
              
-       MOV AL, 10000000B  ;port A=output/ mode 0, PORT B=output/ mode 0 ,port C=output
+       MOV AL, 10000010B  ;PORT A & PORT C OUTPUT , PORT B INPUT , MODE 0
        OUT CWR, AL 
       ;-------------------------------------- 
       
