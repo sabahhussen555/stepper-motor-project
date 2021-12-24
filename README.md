@@ -47,9 +47,9 @@
 ## Stepper Motor
 ### Stepping Modes of a Stepper Motor
 A typical stepping action causes the motor to step through a sequence of equilibrium positions in response to current pulses given to it. It is possible to vary the stepping action in different ways simply by changing the sequence through which stator windings are energized. The following are the most common operating or driving modes of stepper motors.
--Wave Step
--Full Step
--Half Step
+- Wave Step
+- Full Step
+- Half Step
 #### Wave Step Mode
 Wave step mode is the simplest of all other modes in which only one winding is energized at any given time. Each coil of the phase is connected to the supply alternatively. The table below shows the order through which coils are energized in a 4-phase stepper motor.
 
