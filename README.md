@@ -53,8 +53,8 @@ The number of input pulses given to the motor decides the **step angle** which t
 - **Positioning:** stepper motors move in precise repeatable steps.
 - **Speed Control:** precise increment of movements allowed for speed rotational control. 
 - **Speed Torque:** 
-stepper motor has maximum torque at low speeds so it is used for applications that require low speed with high precision.
-stepper motor has less torque at high speeds so some steppers optimized for high speed performance they need to be paired with driver to achieve this performance.
+- stepper motor has maximum torque at low speeds so it is used for applications that require low speed with high precision.
+- stepper motor has less torque at high speeds so some steppers optimized for high speed performance they need to be paired with driver to achieve this performance.
 - **No Feedback:** steppers don't have integral feedback for position, great precision can be achieved running open loop.
 
 
