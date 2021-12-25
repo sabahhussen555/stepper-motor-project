@@ -69,13 +69,14 @@ A typical stepping action causes the motor to step through a sequence of equilib
 #### Wave Step Mode
 Wave step mode is the simplest of all other modes in which only one winding is energized at any given time. Each coil of the phase is connected to the supply alternatively. The table below shows the order through which coils are energized in a 4-phase stepper motor.
 In this mode motor gives maximum step angle compared to all other modes. It is the simplest and most commonly used mode for stepping; however the torque produced is less as it uses some part of the total winding at a given time.
-![Steping-Mode-of-Stepper-Motors-Signal-Sequence-of-Wave-Step-Drive](https://user-images.githubusercontent.com/47756597/147374323-433cc6d6-c497-43c9-8840-6500251e52b9.jpg)
+
+  ![WhatsApp Image 2021-12-25 at 9 17 05 AM](https://user-images.githubusercontent.com/47756597/147388617-4b6bb2c5-5976-49d6-a6ae-871ead241eb6.jpeg)
 
 #### Full Step Mode
 - For each 360° rotation of the motor shaft, the rotor proceeds through 200 distinct steps per revolution, each exactly 1.8° (step angle). During full step operation, two of the phases on the stator are always energized **(two-winding ON)**. This provides maximum torque, but angular resolution is limited by the number of teeth on the rotor.
 - A one step in this is equal to the single pulse of the motor.
 - In this mode, motor consumes double the power than single coil excitation mode, so this requires the least amount of power from the drive power supply of any of the excitation modes.
-![full mode operating steps](https://user-images.githubusercontent.com/95941849/147378877-09713e86-7ea9-4cff-b9b8-f1fb2ce7a039.png)
+ ![full mode operating steps](https://user-images.githubusercontent.com/95941849/147378877-09713e86-7ea9-4cff-b9b8-f1fb2ce7a039.png)
 
 #### Half Step Mode
 - For each 360° rotation of the motor shaft, the rotor proceeds through 400 distinct steps per revolution, each exactly 0.9°. During half step operation, there is an alternation between having one or two phases on the stator energized **(one-winding ON, two-winding ON, and so on)**. This provides twice the level of angular resolution for increased positioning accuracy but comes at the expense of torque.
