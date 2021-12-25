@@ -48,8 +48,7 @@
 ## Stepper Motor
 **Stepper Motor** is a brushless electromechanical device which converts the train of electric pulses applied at their excitation windings into precisely defined step-by-step mechanical shaft rotation. The shaft of the motor rotates through a fixed angle for each discrete pulse. This rotation can be linear or angular.It gets one step movement for a single pulse input.
 The number of input pulses given to the motor decides the **step angle** which the stepper motor shaft turns for each pulse and hence the position of motor shaft is controlled by controlling the number of pulses.
-![What-is-a-stepper-motor](https://user-images.githubusercontent.com/95941849/147378891-c2bf5ce0-eec0-4404-afff-236f33c25fdd.jpg)
-![Stepper-motor-winding](https://user-images.githubusercontent.com/95941849/147378888-7b8e0463-bfcb-481e-9f32-e1980610ba56.jpg)
+![stepper motor](https://user-images.githubusercontent.com/95941849/147379304-ef29ea37-f780-46b5-a4c7-88927878e84a.png)
 
 ### Importance Of Stepper Motors
 - **Positioning:** stepper motors move in precise repeatable steps.
@@ -59,8 +58,8 @@ The number of input pulses given to the motor decides the **step angle** which t
 - stepper motor has less torque at high speeds so some steppers optimized for high speed performance they need to be paired with driver to achieve this performance.
 - **No Feedback:** steppers don't have integral feedback for position, great precision can be achieved running open loop.
 
-
-### Costruction of Stepper Motor
+### Working principle Stepper Motor
+The stepper motor rotor is a permanent magnet, when the current flows through the stator winding, the stator winding to produce a vector magnetic field. The magnetic field drives the rotor to rotate by an angle so that the pair of magnetic fields of the rotor and the magnetic field direction of the stator are consistent. When the stator's vector magnetic field is rotated by an angle, the rotor also rotates with the magnetic field at an angle. Each time an electrical pulse is input, the motor rotates one degree further. The angular displacement it outputs is proportional to the number of pulses input and the speed is proportional to the pulse frequency. Change the order of winding power, the motor will reverse. Therefore, it can control the rotation of the stepping motor by controlling the number of pulses, the frequency and the electrical sequence of each phase winding of the motor.
 
 ### Stepping Modes of a Stepper Motor
 A typical stepping action causes the motor to step through a sequence of equilibrium positions in response to current pulses given to it. It is possible to vary the stepping action in different ways simply by changing the sequence through which stator windings are energized. The following are the most common operating or driving modes of stepper motors.
