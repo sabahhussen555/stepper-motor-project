@@ -86,6 +86,13 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 
 ![half mode operating steps](https://user-images.githubusercontent.com/95941849/147378880-4a6a8264-b73d-4c2e-b794-1f93ffe9546f.png)
 
+### Applications of Stepper Motors
+- Stepper motors are used in automated production equipments and automotive gauges and industrial machines like packaging, labeling, filling and cutting etc.
+- It is widely used in security devices such as security & surveillance cameras.
+- In medical industry, stepper motors are widely used in samples, digital dental photography, respirators, fluid pumps, blood analysis machinery and medical scanners etc.
+- They are used in consumer electronics in image scanners, photo copier and printing machines and in digital camera for automatic zoom and focus functions and positions.
+- Stepper motors also used in elevators, conveyor belts and lane diverters.
+
 ## Used Software
 1. Protues
 2. 8086 emulator with MASM
