@@ -98,3 +98,10 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 2. 8086 emulator with MASM
 3. GitHub
 4. Git
+
+## Collabrators
+- Sabah Hussen 
+- Mahetab Mahmoud 
+- Eman Mostafa 
+- Amal Kamel
+- Randa Medhat
