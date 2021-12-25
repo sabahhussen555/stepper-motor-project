@@ -68,8 +68,18 @@ A typical stepping action causes the motor to step through a sequence of equilib
 #### Wave Step Mode
 Wave step mode is the simplest of all other modes in which only one winding is energized at any given time. Each coil of the phase is connected to the supply alternatively. The table below shows the order through which coils are energized in a 4-phase stepper motor.
 In this mode motor gives maximum step angle compared to all other modes. It is the simplest and most commonly used mode for stepping; however the torque produced is less as it uses some part of the total winding at a given time.
-
 ![Steping-Mode-of-Stepper-Motors-Signal-Sequence-of-Wave-Step-Drive](https://user-images.githubusercontent.com/47756597/147374323-433cc6d6-c497-43c9-8840-6500251e52b9.jpg)
+
+#### Full Step Mode
+- For each 360° rotation of the motor shaft, the rotor proceeds through 200 distinct steps per revolution, each exactly 1.8° (step angle). During full step operation, two of the phases on the stator are always energized. This provides maximum torque, but angular resolution is limited by the number of teeth on the rotor.
+- A one step in this is equal to the single pulse of the motor.
+- In this mode, motor consumes double the power than single coil excitation mode, so this requires the least amount of power from the drive power supply of any of the excitation modes.
+
+#### Half Step Mode
+- For each 360° rotation of the motor shaft, the rotor proceeds through 400 distinct steps per revolution, each exactly 0.9°. During half step operation, there is an alternation between having one or two phases on the stator energized. This provides twice the level of angular resolution for increased positioning accuracy but comes at the expense of torque.
+- When the motor is rotated in this mode, it rotates very smoothly because the step angle of the motor decreases to half.
+- It also controls speed (RPM) of the motor.
+
 
 ## Used Software
 1. Protues
