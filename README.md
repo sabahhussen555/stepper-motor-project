@@ -48,6 +48,8 @@
 ## Stepper Motor
 **Stepper Motor** is a brushless electromechanical device which converts the train of electric pulses applied at their excitation windings into precisely defined step-by-step mechanical shaft rotation. The shaft of the motor rotates through a fixed angle for each discrete pulse. This rotation can be linear or angular.It gets one step movement for a single pulse input.
 The number of input pulses given to the motor decides the **step angle** which the stepper motor shaft turns for each pulse and hence the position of motor shaft is controlled by controlling the number of pulses.
+![What-is-a-stepper-motor](https://user-images.githubusercontent.com/95941849/147378891-c2bf5ce0-eec0-4404-afff-236f33c25fdd.jpg)
+![Stepper-motor-winding](https://user-images.githubusercontent.com/95941849/147378888-7b8e0463-bfcb-481e-9f32-e1980610ba56.jpg)
 
 ### Importance Of Stepper Motors
 - **Positioning:** stepper motors move in precise repeatable steps.
@@ -74,12 +76,13 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 - For each 360° rotation of the motor shaft, the rotor proceeds through 200 distinct steps per revolution, each exactly 1.8° (step angle). During full step operation, two of the phases on the stator are always energized **(two-winding ON)**. This provides maximum torque, but angular resolution is limited by the number of teeth on the rotor.
 - A one step in this is equal to the single pulse of the motor.
 - In this mode, motor consumes double the power than single coil excitation mode, so this requires the least amount of power from the drive power supply of any of the excitation modes.
+![full mode operating steps](https://user-images.githubusercontent.com/95941849/147378877-09713e86-7ea9-4cff-b9b8-f1fb2ce7a039.png)
 
 #### Half Step Mode
 - For each 360° rotation of the motor shaft, the rotor proceeds through 400 distinct steps per revolution, each exactly 0.9°. During half step operation, there is an alternation between having one or two phases on the stator energized **(one-winding ON, two-winding ON, and so on)**. This provides twice the level of angular resolution for increased positioning accuracy but comes at the expense of torque.
 - When the motor is rotated in this mode, it rotates very smoothly because the step angle of the motor decreases to half.
 - It also controls speed (RPM) of the motor.
-
+![half mode operating steps](https://user-images.githubusercontent.com/95941849/147378880-4a6a8264-b73d-4c2e-b794-1f93ffe9546f.png)
 
 ## Used Software
 1. Protues
