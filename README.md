@@ -82,6 +82,7 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 - For each 360° rotation of the motor shaft, the rotor proceeds through 400 distinct steps per revolution, each exactly 0.9°. During half step operation, there is an alternation between having one or two phases on the stator energized **(one-winding ON, two-winding ON, and so on)**. This provides twice the level of angular resolution for increased positioning accuracy but comes at the expense of torque.
 - When the motor is rotated in this mode, it rotates very smoothly because the step angle of the motor decreases to half.
 - It also controls speed (RPM) of the motor.
+
 ![half mode operating steps](https://user-images.githubusercontent.com/95941849/147378880-4a6a8264-b73d-4c2e-b794-1f93ffe9546f.png)
 
 ## Used Software
