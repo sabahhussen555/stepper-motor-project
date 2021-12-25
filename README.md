@@ -46,6 +46,19 @@
 ![8255ctrl](https://user-images.githubusercontent.com/47755059/147295847-5ab952a2-bdef-4dc6-b361-0a46fd87aa08.gif)
 
 ## Stepper Motor
+**Stepper Motor** is a brushless electromechanical device which converts the train of electric pulses applied at their excitation windings into precisely defined step-by-step mechanical shaft rotation. The shaft of the motor rotates through a fixed angle for each discrete pulse. This rotation can be linear or angular.It gets one step movement for a single pulse input.
+The number of input pulses given to the motor decides the **step angle** which the stepper motor shaft turns for each pulse and hence the position of motor shaft is controlled by controlling the number of pulses.
+
+### Importance Of Stepper Motors
+**Positioning:** stepper motors move in precise rpeatable steps.
+**Speed Control:** precise increment of movements allowed for speed rotational control. 
+**Low Speed Tourqe:** 
+- stepper motor has maximum torque at low speeds so it is used for applications that require low speed with high precision.
+- stepper motor has less torque at high speeds so some steppers optimized for high speed performance they need to be paired with driver to achieve this performance.
+- steppers don't have integral feedback for position, great precision can be achieved running open loop.
+-  
+### Costruction of Stepper Motor
+
 ### Stepping Modes of a Stepper Motor
 A typical stepping action causes the motor to step through a sequence of equilibrium positions in response to current pulses given to it. It is possible to vary the stepping action in different ways simply by changing the sequence through which stator windings are energized. The following are the most common operating or driving modes of stepper motors.
 - Wave Step
