@@ -19,8 +19,9 @@
 
 ### 8255A I/O device
 - The 8255A is a general purpose programmable I/O device designed to transfer the data from I/O to interrupt I/O under certain conditions as required. It can be used with almost any microprocessor.
-- It consists of three 8-bit bidirectional I/O ports (24I/O lines) which can be configured as per the requirement.
- 	 	#### Ports of 8255A
+- It consists of three 8-bit bidirectional I/O ports (24I/O lines) which can be configured as per the requirement
+ 
+ ### Ports of 8255A
 **8255A has three ports, i.e., PORT A, PORT B, and PORT C**
  	 	 
 - Port A contains one 8-bit output latch/buffer and one 8-bit input buffer.
