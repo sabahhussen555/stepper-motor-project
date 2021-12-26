@@ -38,73 +38,91 @@ DELAYMAX PROC			;DelayMAX specific time
 	 RET
 DELAYMAX ENDP
 
+DELAYMID PROC			;DelayMID specific time 				
+	 MOV BX, CX
+	 MOV CX,3*06FFH
+      delay2:
+	 loop delay2
+	 MOV CX, BX
+	 RET
+DELAYMID ENDP   
+
+DELAYMIN PROC			;DelayMIN specific time 				
+   	 MOV BX, CX
+	 MOV CX,4*06FFH
+      delay3:
+	 loop delay3
+	 MOV CX, BX
+	 RET
+DELAYMIN ENDP  
+
 
 ;----------------------------  
 ;FULL STEP MODE
 
-ROTATECLKFULL PROC   
-      ;full-mode clock-wise high speed
+ROTATEANTIFULL PROC   
+      ;full-mode ANTI clock-wise high speed
       ;2 WING-ON 
      loop1:  mov AL,00001100B    ;09H
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMID
        CALL TEST_SWITCHES 
        
        mov AL,00000110B    ;03H
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMID
        CALL TEST_SWITCHES 
 
 
        mov AL,00000011B  ;06H  
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMID
        CALL TEST_SWITCHES   
         
        mov AL,00001001B   ;0CH
        OUT PORTA,AL
-       CALL DELAYMAX 
+       CALL DELAYMID 
        CALL TEST_SWITCHES   
                         
                                        
       JMP loop1		;loop for ever   
               
           RET
-ROTATECLKFULL ENDP   
+ROTATEANTIFULL ENDP   
 
 ;------------------------------------
 
 
-ROTATEANTIFULL PROC  
+ROTATECLKFULL PROC  
       
-     ;full-mode antiClock-wise high speed
+     ;full-mode Clock-wise high speed
      ;2 WING-ON 
                            
    loop2: mov AL,00001001B   ;0CH
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMID
         CALL TEST_SWITCHES 
        
        mov AL,00000011B   ;06H
        OUT PORTA,AL
-       CALL DELAYMAX 
+       CALL DELAYMID 
        CALL TEST_SWITCHES  
 
 
        mov AL,00000110B    ;02H  
        OUT PORTA,AL
-       CALL DELAYMAX 
+       CALL DELAYMID 
        CALL TEST_SWITCHES   
         
        mov AL,00001100B   ;09H
        OUT PORTA,AL
-       CALL DELAYMAX  
+       CALL DELAYMID  
        CALL TEST_SWITCHES 
                     
       JMP loop2		;loop for ever  
        
           RET
- ROTATEANTIFULL ENDP   
+ ROTATECLKFULL ENDP   
 
 ;------------------------------------------ 
 ;HALF STEP MODE
@@ -119,7 +137,7 @@ ROTATEANTIFULL PROC
        
        mov AL,00001001B   ;09H
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMIN
        CALL TEST_SWITCHES        ;call the delay function 
        
        
@@ -127,7 +145,7 @@ ROTATEANTIFULL PROC
        
        mov AL,00000001B   ;01H
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMIN
        CALL TEST_SWITCHES         
        
        ;1-WING ON  
@@ -135,7 +153,7 @@ ROTATEANTIFULL PROC
        
        mov AL,00000011B   ;03H
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMIN
        CALL TEST_SWITCHES              
                       
                       
@@ -144,7 +162,7 @@ ROTATEANTIFULL PROC
        
        mov AL,00000010B   ;02H
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMIN
        CALL TEST_SWITCHES            
        
        ;1-WING ON     
@@ -152,7 +170,7 @@ ROTATEANTIFULL PROC
        
        mov AL,00000110B   ;06H
        OUT PORTA,AL
-       CALL DELAYMAX        
+       CALL DELAYMIN        
        CALL TEST_SWITCHES   
        
        ;2-WING ON 
@@ -160,21 +178,21 @@ ROTATEANTIFULL PROC
        
        mov AL,00000100B    ;04H  
        OUT PORTA,AL
-       CALL DELAYMAX      
+       CALL DELAYMIN      
        CALL TEST_SWITCHES  
        
        ;1-WING ON 
        
        mov AL,00001100B   ; 0CH
        OUT PORTA,AL
-       CALL DELAYMAX         
+       CALL DELAYMIN         
        CALL TEST_SWITCHES  
        
        ;2-WING ON 
        
        mov AL,00001000B   ;08H
        OUT PORTA,AL
-       CALL DELAYMAX          
+       CALL DELAYMIN         
        CALL TEST_SWITCHES  
        
           
@@ -196,45 +214,45 @@ ROTATEANTIFULL PROC
      
        mov AL,00001000B   ;08H
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMIN
         CALL TEST_SWITCHES  
         
           ;2-WING ON
         mov AL,00001100B   ;0CH
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMIN
        CALL TEST_SWITCHES     
        
            ;1-WING ON
        mov AL,00000100B   ;04H 
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMIN
        CALL TEST_SWITCHES 
            
            ;2-WING ON
        mov AL,00000110B   ;06H
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMIN
        CALL TEST_SWITCHES    
        
        mov AL,00000010B   ;02H
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMIN
        CALL TEST_SWITCHES  
        
        mov AL,00000011B   ;03H
        OUT PORTA,AL
-       CALL DELAYMAX       
+       CALL DELAYMIN       
        CALL TEST_SWITCHES
          
        mov AL,00000001B    ;01H  
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMIN
        CALL TEST_SWITCHES  
        
        mov AL,00001001B   ;09H
        OUT PORTA,AL
-       CALL DELAYMAX
+       CALL DELAYMIN
        CALL TEST_SWITCHES  
            
                         
@@ -290,7 +308,7 @@ ROTATEANTIWAVE ENDP
 ROTATECLKWAVE PROC    
     
     
-    ;anti-CLOCK-WISE Wave step mode   (MAX Speed)
+    ;CLOCK-WISE Wave step mode   (MAX Speed)
     ;1-WING ON 
     
    
