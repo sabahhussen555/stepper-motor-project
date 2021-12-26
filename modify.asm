@@ -17,7 +17,8 @@ OUT CWR,AL
 
 ;---------------------------
  MAIN:
-		
+     mov AX , 01101101B   ;display s for stope
+     out PORTC,AX	
   
  CALL TEST_SWITCHES  
                
@@ -392,7 +393,9 @@ ROTATECLKWAVE ENDP
                                               
     STOPING PROC			;Defining STOPING Function
 	loop7:  
-	   
+	   mov AX , 01101101B   ;display s for stope
+        out PORTC,AX  
+        
       CALL TEST_SWITCHES                
       JMP loop7		;loop for ever
 	 RET
