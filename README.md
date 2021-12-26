@@ -17,6 +17,10 @@
 - BUTTON 
 - ULN2003A
 
+## Components discription
+### 8086 microprocessor
+ - 8086 Microprocessor is an enhanced version of 8085Microprocessor that was designed by Intel in 1976. It is a 16-bit Microprocessor having 20 address lines and16 data lines that provides up to 1MB storage. It consists of powerful instruction set, which provides operations like multiplication and division easily
+ 
 ### 8255A I/O device
 - The 8255A is a general purpose programmable I/O device designed to transfer the data from I/O to interrupt I/O under certain conditions as required. It can be used with almost any microprocessor.
 - It consists of three 8-bit bidirectional I/O ports (24I/O lines) which can be configured as per the requirement
