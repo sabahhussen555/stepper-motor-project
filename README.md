@@ -5,6 +5,7 @@
 - Used Devices
 - Components discription
 - used software
+-  Collabrators
 ## Introduction
 - in order to run the circuit you have to install at least proteus vertion 8.9 .
 - run the code in the emu8086
