@@ -17,6 +17,7 @@
 - Battery
 - BUTTON 
 - ULN2003A
+- 7 segment
 
 ## Components discription
 ### 8086 microprocessor
