@@ -64,7 +64,10 @@ ROTATEANTIFULL PROC
       ;full-mode ANTI clock-wise high speed
       ;2 WING-ON 
      loop1: 
-     
+       mov AX , 01110111B   ;display A for anti-clockwise
+       out PORTC,AX
+       CALL DELAYMID
+       CALL TEST_SWITCHES
    
        
        mov AL,00001100B    ;09H
@@ -226,7 +229,14 @@ ROTATECLKFULL PROC
         
       ;HALF-mode ANTICLOCK WISE low speed 
       
-     loop4:     ;1-WING ON
+     loop4:  
+     
+       mov AX , 01110111B   ;display A for anti-clockwise
+       out PORTC,AX
+       CALL DELAYMIN
+       CALL TEST_SWITCHES        ;call the delay function  
+     
+        ;1-WING ON
      
        mov AL,00001000B   ;08H
        OUT PORTA,AL
@@ -290,7 +300,13 @@ ROTATEANTIWAVE PROC
        
         
            
-       Loop5: mov AL,00001000B   ;08H
+       Loop5: 
+        mov AX , 01110111B   ;display A for anti-clockwise
+        out PORTC,AX 
+        CALL DELAYMAX
+        CALL TEST_SWITCHES
+       
+           mov AL,00001000B   ;08H
            OUT PORTA,AL
            CALL DELAYMAX     ;HIDH SPEED 
            CALL TEST_SWITCHES
