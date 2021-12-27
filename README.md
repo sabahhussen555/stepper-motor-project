@@ -134,6 +134,10 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 
 ![image](https://user-images.githubusercontent.com/47755059/147423408-02fdabaf-9d30-4e06-8d9c-675b5264fb31.png)
 
+**We use common cathode seven-segments and the figures below illustrate how to turn on the wanted leds of seven-segments display**
+
+
+![Capture](https://user-images.githubusercontent.com/47755059/147423359-b56f8a0f-e262-4f7b-af11-0ab6e2306b26.JPG)
 
 
 ## Used Software
