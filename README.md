@@ -129,6 +129,7 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 ## 7 SEGMENT
 - It Consists of seven individual colored LEDs from (a to g) character
 - Every led is light to form a number on segment
+
 **for example when we needed to diplay S we used (a,c,d,f,g) on and (b,e) off**
 
 ## Used Software
