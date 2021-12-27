@@ -126,6 +126,11 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 - They are used in consumer electronics in image scanners, photo copier and printing machines and in digital camera for automatic zoom and focus functions and positions.
 - Stepper motors also used in elevators, conveyor belts and lane diverters.
 
+## 7 SEGMENT
+- It Consists of seven individual colored LEDs from (a to g) character
+- Every led is light to form a number on segment
+**for example when we needed to diplay S we used (a,c,d,f,g) on and (b,e) off**
+
 ## Used Software
 1. Protues
 2. 8086 emulator with MASM
