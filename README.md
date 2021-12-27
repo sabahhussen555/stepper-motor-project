@@ -132,6 +132,10 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 
 **for example when we needed to diplay S we used (a,c,d,f,g) on and (b,e) off**
 
+![image](https://user-images.githubusercontent.com/47755059/147423408-02fdabaf-9d30-4e06-8d9c-675b5264fb31.png)
+
+
+
 ## Used Software
 1. Protues
 2. 8086 emulator with MASM
