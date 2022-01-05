@@ -147,7 +147,15 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
       - full mode
       - wave mode
       - half mode
-
+   2. two directions
+      - clock wise
+      - Anti-clock wise
+   3. three speed
+      - normal speed
+      - high speed
+      - low speed  
+      
+ if there is no mode from the above modes is selected the motor state is stop. 
 
 ## Used Software
 1. Protues
