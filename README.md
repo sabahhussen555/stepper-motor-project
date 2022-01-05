@@ -105,20 +105,22 @@ A typical stepping action causes the motor to step through a sequence of equilib
 Wave step mode is the simplest of all other modes in which only one winding is energized at any given time. Each coil of the phase is connected to the supply alternatively. The table below shows the order through which coils are energized in a 4-phase stepper motor.
 In this mode motor gives maximum step angle compared to all other modes. It is the simplest and most commonly used mode for stepping; however the torque produced is less as it uses some part of the total winding at a given time.
 
-  ![WhatsApp Image 2021-12-25 at 9 17 05 AM](https://user-images.githubusercontent.com/47756597/147388617-4b6bb2c5-5976-49d6-a6ae-871ead241eb6.jpeg)
+![wave step](https://user-images.githubusercontent.com/95941849/148268455-38d7239b-6c44-415a-b753-894287a390cc.png)
+ 
 
 #### Full Step Mode
 - For each 360° rotation of the motor shaft, the rotor proceeds through 200 distinct steps per revolution, each exactly 1.8° (step angle). During full step operation, two of the phases on the stator are always energized **(two-winding ON)**. This provides maximum torque, but angular resolution is limited by the number of teeth on the rotor.
 - A one step in this is equal to the single pulse of the motor.
 - In this mode, motor consumes double the power than single coil excitation mode, so this requires the least amount of power from the drive power supply of any of the excitation modes.
- ![full mode operating steps](https://user-images.githubusercontent.com/95941849/147378877-09713e86-7ea9-4cff-b9b8-f1fb2ce7a039.png)
+
+  ![full mode](https://user-images.githubusercontent.com/95941849/148268029-2cad480a-23b7-4a52-8233-265b9849710e.png)
 
 #### Half Step Mode
 - For each 360° rotation of the motor shaft, the rotor proceeds through 400 distinct steps per revolution, each exactly 0.9°. During half step operation, there is an alternation between having one or two phases on the stator energized **(one-winding ON, two-winding ON, and so on)**. This provides twice the level of angular resolution for increased positioning accuracy but comes at the expense of torque.
 - When the motor is rotated in this mode, it rotates very smoothly because the step angle of the motor decreases to half.
 - It also controls speed (RPM) of the motor.
 
-![half mode operating steps](https://user-images.githubusercontent.com/95941849/147378880-4a6a8264-b73d-4c2e-b794-1f93ffe9546f.png)
+![half mode](https://user-images.githubusercontent.com/95941849/148268421-3458a349-ee50-4b42-98e8-a43e323f9ecb.png)
 
 ### Applications of Stepper Motors
 - Stepper motors are used in automated production equipments and automotive gauges and industrial machines like packaging, labeling, filling and cutting etc.
@@ -136,9 +138,6 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 ![image](https://user-images.githubusercontent.com/47755059/147423408-02fdabaf-9d30-4e06-8d9c-675b5264fb31.png)
 
 **We use common cathode seven-segments and the figures below illustrate how to turn on the wanted leds of seven-segments display**
-
-
-![Capture](https://user-images.githubusercontent.com/47755059/147423359-b56f8a0f-e262-4f7b-af11-0ab6e2306b26.JPG)
 
 
 ## Used Software
