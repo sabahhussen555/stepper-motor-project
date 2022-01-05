@@ -209,7 +209,7 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 # Final Circuit 
   ![Screenshot (150)](https://user-images.githubusercontent.com/47756597/148290543-d2ccde3b-e2d3-4ac1-954d-3a3f12c3fc86.png)  
   
-[**Click here for more details**](https://drive.google.com/drive/folders/1zhuB25fjYYZxuLIcEDZQoWOkNXGakEDJ?usp=sharing)
+**Click** [**here**](https://drive.google.com/drive/folders/1zhuB25fjYYZxuLIcEDZQoWOkNXGakEDJ?usp=sharing) **to show the full code & circuit**
    
 ## Used Software
 1. Protues
