@@ -175,6 +175,12 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
    by pressing switch 4, this mode is on 
    
 ![ACW](https://user-images.githubusercontent.com/47756597/148284434-7193a13d-1155-447c-b32f-e000b93296a6.gif)
+
+  3.Half mode , Clock wise , Low Speed
+  
+   by pressing switch 5, this mode is ON
+   
+![HalfCW](https://user-images.githubusercontent.com/47756597/148285592-c6913c4b-187b-41bc-b637-47c7fedf6297.gif)
 ## Used Software
 1. Protues
 2. 8086 emulator with MASM
