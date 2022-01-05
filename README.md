@@ -140,7 +140,7 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 
 **We use common cathode seven-segments and the figures below illustrate how to turn on the wanted leds of seven-segments display**
 
-## Code flow
+## Circuit flow
 ### project idea
  **in our project, we used stepper motor operating on :**
    1. three different mode:
@@ -200,10 +200,12 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
     
  ![A Video by Eman - waveacw](https://user-images.githubusercontent.com/47756597/148288431-def6a9c6-a64b-40cd-9019-20cbf0a21d7a.gif)
  
- # Final Circuit 
+ 7.Stop Switch
  
- ![Screenshot (150)](https://user-images.githubusercontent.com/47756597/148289028-d713ca4c-d6e2-4d62-9e46-507942163b38.png)
+ by pressing switch 7, this switch is ON, this means that the stepper motor is OFF (Stop rotate)
  
+![stop](https://user-images.githubusercontent.com/47756597/148289859-29f9dd54-d028-4c71-976f-5da8bf0e7079.gif)
+
 
 
     
