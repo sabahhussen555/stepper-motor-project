@@ -142,7 +142,7 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 
 ## Code flow
 ### project idea
-in our project, we used stepper motor operating on :
+**in our project, we used stepper motor operating on :**
 1. three different mode:
     - full mode
     - wave mode
@@ -161,6 +161,10 @@ in our project, we used stepper motor operating on :
    - it displays "C" if the motor direction is clockwise. 
    - it displays "A" if the motor direction is anti clockwise.
    - it displays "S" if the motor is stopped.
+   
+  **we used seven switches to select a certain direction of certain mode:**
+  
+   
 
 ## Used Software
 1. Protues
