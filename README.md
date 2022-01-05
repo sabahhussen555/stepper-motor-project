@@ -4,7 +4,7 @@
 - circuit diagram
 - Used Devices
 - Components discription
--  Code Flow
+- Circuit flow
 - used software
 -  Collabrators
 ## Introduction
@@ -123,12 +123,6 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 
 ![half mode](https://user-images.githubusercontent.com/95941849/148268421-3458a349-ee50-4b42-98e8-a43e323f9ecb.png)
 
-### Applications of Stepper Motors
-- Stepper motors are used in automated production equipments and automotive gauges and industrial machines like packaging, labeling, filling and cutting etc.
-- It is widely used in security devices such as security & surveillance cameras.
-- In medical industry, stepper motors are widely used in samples, digital dental photography, respirators, fluid pumps, blood analysis machinery and medical scanners etc.
-- They are used in consumer electronics in image scanners, photo copier and printing machines and in digital camera for automatic zoom and focus functions and positions.
-- Stepper motors also used in elevators, conveyor belts and lane diverters.
 
 ## 7 SEGMENT
 - It Consists of seven individual colored LEDs from (a to g) character
@@ -221,5 +215,5 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 - Sabah Hussen 
 - Mahetab Mahmoud 
 - Eman Mostafa 
-- Amal Kamel
 - Randa Medhat
+- Amal kamel
