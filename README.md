@@ -75,8 +75,9 @@
  	 	 
 **Depending upon the value if CS’, A1 and A0 we can select different ports in different modes as input-output function or BSR. This is done by writing a suitable word in control register (control word D0-D7)**
  	 	 
-![103838495-dfcc7600-5095-11eb-9521-2b9796aadb39](https://user-images.githubusercontent.com/47755059/147295995-9ca44c31-a599-4120-b063-5951cdf6acd4.png)
- 	 	 
+
+![MicrosoftTeams-image (7)](https://user-images.githubusercontent.com/47753581/148270799-dbf341d2-07c4-4e0d-a76a-4198b4a9866b.png)
+
 ![8255ctrl](https://user-images.githubusercontent.com/47755059/147295847-5ab952a2-bdef-4dc6-b361-0a46fd87aa08.gif)
 
 ## Stepper Motor
