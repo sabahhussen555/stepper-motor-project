@@ -171,6 +171,10 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 ![CW](https://user-images.githubusercontent.com/47756597/148283864-aa033169-fc4a-4237-9735-4dfa3e359570.gif)
 
   2.Full mode , Anti clock wise , normal speed
+  
+   by pressing switch 4, this mode is on 
+   
+![ACW](https://user-images.githubusercontent.com/47756597/148284434-7193a13d-1155-447c-b32f-e000b93296a6.gif)
 ## Used Software
 1. Protues
 2. 8086 emulator with MASM
