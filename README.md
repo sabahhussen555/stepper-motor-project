@@ -142,29 +142,33 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 
 ## Code flow
 ### project idea
-**in our project, we used stepper motor operating on :**
-1. three different mode:
-    - full mode
-    - wave mode
-    - half mode
-2. two directions
-   - clock wise
-   - Anti-clock wise
-3. three speed
-   - normal speed
-   - high speed
-   - low speed  
+ **in our project, we used stepper motor operating on :**
+   1. three different mode:
+       - full mode
+       - wave mode
+       - half mode
+   2. two directions
+       - clock wise
+       - Anti-clock wise
+   3. three speed
+       - normal speed
+       - high speed
+       - low speed  
       
- if there is no mode from the above modes is selected the motor state is stop. 
+   if there is no mode from the above modes is selected the motor state is stop. 
  
- And we used a 7-segment as an indicator to the motor direction:
+ **And we used a 7-segment as an indicator to the motor direction:**
    - it displays "C" if the motor direction is clockwise. 
    - it displays "A" if the motor direction is anti clockwise.
    - it displays "S" if the motor is stopped.
    
-  **we used seven switches to select a certain direction of certain mode:**
+ **we used seven switches to select a certain direction and speed of specific mode:**
   
-   
+  1. Full mode , clock wise , normal speed
+  
+      by pressing switch 3, this mode is on 
+      
+      ![aa](https://user-images.githubusercontent.com/47756597/148283285-dbb56f8b-14a5-4a55-aabf-4870e1ce9245.gif)
 
 ## Used Software
 1. Protues
