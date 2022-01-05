@@ -140,6 +140,8 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 
 **We use common cathode seven-segments and the figures below illustrate how to turn on the wanted leds of seven-segments display**
 
+![seven segment](https://user-images.githubusercontent.com/95941849/148268505-191f6ee6-0b93-4aee-9eda-e93ec3f7a743.png)
+
 ## Circuit flow
 ### project idea
  **in our project, we used stepper motor operating on :**
