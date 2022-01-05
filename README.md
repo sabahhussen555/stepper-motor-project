@@ -1,7 +1,7 @@
 # 8086_Steppermotor_Assembly
 ## Table of contents
 - Introduction
-- Code Flow
+- circuit diagram
 - Used Devices
 - Components discription
 - used software
