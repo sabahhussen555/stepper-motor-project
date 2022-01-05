@@ -168,7 +168,7 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
   
       by pressing switch 3, this mode is on 
       
-      ![aa](https://user-images.githubusercontent.com/47756597/148283285-dbb56f8b-14a5-4a55-aabf-4870e1ce9245.gif)
+![CW](https://user-images.githubusercontent.com/47756597/148283864-aa033169-fc4a-4237-9735-4dfa3e359570.gif)
 
 ## Used Software
 1. Protues
