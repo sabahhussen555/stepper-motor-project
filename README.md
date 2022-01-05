@@ -164,15 +164,15 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
    
  **we used seven switches to select a certain direction and speed of specific mode:**
   
-  1. Full mode , clock wise , normal speed
+  1. Full mode , Clock wise , Normal speed
   
-      by pressing switch 3, this mode is on 
+      by pressing switch 3, this mode is ON 
       
 ![CW](https://user-images.githubusercontent.com/47756597/148283864-aa033169-fc4a-4237-9735-4dfa3e359570.gif)
 
-  2.Full mode , Anti clock wise , normal speed
+  2.Full mode , Anti Clock wise , Normal speed
   
-   by pressing switch 4, this mode is on 
+   by pressing switch 4, this mode is ON
    
 ![ACW](https://user-images.githubusercontent.com/47756597/148284434-7193a13d-1155-447c-b32f-e000b93296a6.gif)
 
