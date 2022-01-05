@@ -140,6 +140,14 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 
 **We use common cathode seven-segments and the figures below illustrate how to turn on the wanted leds of seven-segments display**
 
+## Code flow
+### project idea
+ in our project, we used stepper motor operating on :
+   1. three different mode:
+      - full mode
+      - wave mode
+      - half mode
+
 
 ## Used Software
 1. Protues
