@@ -188,6 +188,21 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
    
    ![HalfACW](https://user-images.githubusercontent.com/47756597/148286407-4cc991fc-ebd0-4881-a5b9-3ce16b731cc9.gif)
    
+ 5.Wave mode , Clock wise , High Speed
+
+   by pressing switch 1, this mode is ON
+    
+ ![A Video by Eman - waveCW](https://user-images.githubusercontent.com/47756597/148287994-4944afd8-5e59-4a3b-b93b-23a78b9c19ef.gif)
+ 
+6.Wave mode , Anti-Clock wise , High Speed
+
+   by pressing switch 2, this mode is ON
+    
+ ![A Video by Eman - waveacw](https://user-images.githubusercontent.com/47756597/148288431-def6a9c6-a64b-40cd-9019-20cbf0a21d7a.gif)
+
+
+    
+   
 ## Used Software
 1. Protues
 2. 8086 emulator with MASM
