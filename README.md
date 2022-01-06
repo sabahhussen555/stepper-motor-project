@@ -43,7 +43,7 @@
 
 The connection between stepper motor and ULN2003A motor driver , If the driver take high input the output to stepper motor will be low becouse of array of 7 NPN transistors.
 
-![Screenshot (153)](https://user-images.githubusercontent.com/47756597/148425130-40091682-1d9d-4c6f-b943-85f501bcf980.png)    
+![XUC5e](https://user-images.githubusercontent.com/47756597/148425891-1ca81047-ce9a-4ad4-99ca-92842b0ece6b.gif)   
 
 ### 74HC373 Latch
 - The 74HC373 high speed octal D-type latches utilize advanced silicon-gate CMOS technology. They possess the high noise immunity and low power consumption of standard CMOS integrated circuits, as well as the ability to drive 15 LS-TTL loads. Due to the large output drive capability and the 3-STATE feature, these devices are ideally suited for interfacing with bus lines in a bus organized system.
