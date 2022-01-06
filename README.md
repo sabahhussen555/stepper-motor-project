@@ -31,19 +31,16 @@
 ![architecture_of_8086](https://user-images.githubusercontent.com/47755059/147280453-c7cec44e-4730-4c84-aa02-48998d673d51.jpg)
 
 ### ULN2003A Motor driver
- The ULN2003A is an array of seven NPN Darlington transistors capable of 500 mA, 50 V output. It features common-cathode flyback diodes for switching inductive loads
-
- ![103940688-6e90cf80-5136-11eb-93fb-060149a6cfc3](https://user-images.githubusercontent.com/47755059/147296913-93db5664-0946-4257-8978-efae7d9d7727.jpeg)
-
-
- **The connection between stepper motor and ULN2003A motor driver:**
-  If the driver take high inpit the output to stepper motor will be low becouse of NPN transistors, 
-  then the coil in stepper motor will be energized because 2,5 of motor connected to supply.
-
-
-
-.
-![103941080-04c4f580-5137-11eb-8321-8c2f3d31264e](https://user-images.githubusercontent.com/47755059/147296966-64339009-3122-46e9-9774-695d0097a020.jpeg)
+  ULN2003 IC is one of the most commonly used Motor driver IC generally used when we need to drive high current loads using digital logic circuits like Op-maps, Timers, Gates,     Arduino, PIC, ARM etc. For example a motor that requires 12V and 350mA to run cannot be powered by an Arduino I/O hence we use this IC to source enough current and voltage for   the load. 
+  ##### ULN2003 Features
+ - Contains 7 high-voltage and high current Darlington pairs , Each pair is rated for 50V and 500mA.
+ - Input pins can be triggered by +5V.
+ - All seven Output pins can be connected to gather to drive loads up to (7×500mA) ~3.5A.
+ 
+    This IC is commonly used to drive Relay modules, Motors, high current LEDs and even Stepper Motors. So if you have anything that anything more than 5V 80mA to work, then     this IC would be the right choice for you.
+ 
+ ![uln2003a-7x-darlington-array](https://user-images.githubusercontent.com/47756597/148419980-286b1435-a16b-465f-abf1-c069253e8564.jpg)
+    
 
 ### 74HC373 Latch
 - The 74HC373 high speed octal D-type latches utilize advanced silicon-gate CMOS technology. They possess the high noise immunity and low power consumption of standard CMOS integrated circuits, as well as the ability to drive 15 LS-TTL loads. Due to the large output drive capability and the 3-STATE feature, these devices are ideally suited for interfacing with bus lines in a bus organized system.
