@@ -39,8 +39,11 @@
  
     This IC is commonly used to drive Relay modules, Motors, high current LEDs and even Stepper Motors. So if you have anything that anything more than 5V 80mA to work, then     this IC would be the right choice for you.
  
- ![uln2003a-7x-darlington-array](https://user-images.githubusercontent.com/47756597/148419980-286b1435-a16b-465f-abf1-c069253e8564.jpg)
-    
+![Screenshot (151)](https://user-images.githubusercontent.com/47756597/148423043-1d9aa32e-02ed-4605-a301-09256091b876.png)
+
+The connection between stepper motor and ULN2003A motor driver , If the driver take high input the output to stepper motor will be low becouse of array of 7 NPN transistors.
+
+![Screenshot (153)](https://user-images.githubusercontent.com/47756597/148425130-40091682-1d9d-4c6f-b943-85f501bcf980.png)    
 
 ### 74HC373 Latch
 - The 74HC373 high speed octal D-type latches utilize advanced silicon-gate CMOS technology. They possess the high noise immunity and low power consumption of standard CMOS integrated circuits, as well as the ability to drive 15 LS-TTL loads. Due to the large output drive capability and the 3-STATE feature, these devices are ideally suited for interfacing with bus lines in a bus organized system.
