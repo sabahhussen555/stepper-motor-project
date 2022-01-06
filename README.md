@@ -136,7 +136,8 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 
 **for example when we needed to diplay S we used (a,c,d,f,g) on and (b,e) off**
 
-![image](https://user-images.githubusercontent.com/47755059/147423408-02fdabaf-9d30-4e06-8d9c-675b5264fb31.png)
+![Common-Cathode-7-Segment-Display-Internal-Working](https://user-images.githubusercontent.com/47755059/148405672-c07386e9-5f8c-4870-8d30-1a09d586f442.gif)
+
 
 **We use common cathode seven-segments and the figures below illustrate how to turn on the wanted leds of seven-segments display**
 
