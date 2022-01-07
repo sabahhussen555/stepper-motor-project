@@ -94,11 +94,11 @@ The number of input pulses (steps) given to the motor decides the **step angle**
 - **Positioning:** stepper motors move in precise repeatable steps.
 - **Speed Control:** precise increment of movements allowed for speed rotational control. 
 - **Speed Torque:** 
-- stepper motor has maximum torque at low speeds so it is used for applications that require low speed with high precision.
-- stepper motor has less torque at high speeds so some steppers optimized for high speed performance they need to be paired with driver to achieve this performance.
+   - stepper motor has maximum torque at low speeds so it is used for applications that require low speed with high precision.
+   - stepper motor has less torque at high speeds so some steppers optimized for high speed performance they need to be paired with driver to achieve this performance.
 - **No Feedback:** steppers don't have integral feedback for position, great precision can be achieved running open loop.
 
-### Working principle Stepper Motor
+### Working principle of Stepper Motor
 **The stepper motor cosists of stator and rotor:** rotor is a permanent magnet, when the current flows through the stator winding, the stator winding to produce a vector magnetic field.
 - The magnetic field drives the rotor to rotate by an angle so that the pair of magnetic fields of the rotor and the magnetic field direction of the stator are consistent.
 - When the stator is rotated by an angle, the rotor also rotates with the magnetic field at an angle. Each time an electrical pulse is input, the motor rotates one degree further.
@@ -111,47 +111,12 @@ A typical stepping action causes the motor to step through a sequence of equilib
 - Wave Step
 - Full Step
 - Half Step
-
 #### Wave Step Mode
 Wave step mode is the simplest of all other modes in which only one winding is energized at any given time. Each coil of the phase is connected to the supply alternatively. The table below shows the order through which coils are energized in a 4-phase stepper motor.
 In this mode motor gives maximum step angle compared to all other modes. It is the simplest and most commonly used mode for stepping; however the torque produced is less as it uses some part of the total winding at a given time.
 
 ![wave step](https://user-images.githubusercontent.com/95941849/148268455-38d7239b-6c44-415a-b753-894287a390cc.png)
  
-
-#### Full Step Mode
-- For each 360° rotation of the motor shaft, the rotor proceeds through 200 distinct steps per revolution, each exactly 1.8° (step angle). During full step operation, two of the phases on the stator are always energized **(two-winding ON)**. This provides maximum torque, but angular resolution is limited by the number of teeth on the rotor.
-- A one step in this is equal to the single pulse of the motor.
-- In this mode, motor consumes double the power than single coil excitation mode, so this requires the least amount of power from the drive power supply of any of the excitation modes.
-
-  ![full mode](https://user-images.githubusercontent.com/95941849/148268029-2cad480a-23b7-4a52-8233-265b9849710e.png)
-
-#### Half Step Mode
-- For each 360° rotation of the motor shaft, the rotor proceeds through 400 distinct steps per revolution, each exactly 0.9°. During half step operation, there is an alternation between having one or two phases on the stator energized **(one-winding ON, two-winding ON, and so on)**. This provides twice the level of angular resolution for increased positioning accuracy but comes at the expense of torque.
-- When the motor is rotated in this mode, it rotates very smoothly because the step angle of the motor decreases to half.
-- It also controls speed (RPM) of the motor.
-
-![half mode](https://user-images.githubusercontent.com/95941849/148268421-3458a349-ee50-4b42-98e8-a43e323f9ecb.png)
- 
- ## Applications of Stepper Motors
- -  Stepper motors are used in automated production equipments and automotive gauges and industrial machines like packaging, labeling, filling and cutting etc
- -  It is widely used in security devices such as security & surveillance cameras.
- -  In medical industry, stepper motors are widely used in samples, digital dental photography, respirators, fluid pumps, blood analysis machinery and medical scanners etc.
- -  They are used in consumer electronics in image scanners, photo copier and printing machines and in digital camera for automatic zoom and focus functions and positions.
- -  Stepper motors also used in elevators, conveyor belts and lane diverters.
-
-### Stepping Modes of a Stepper Motor
-A typical stepping action causes the motor to step through a sequence of equilibrium positions in response to current pulses given to it. It is possible to vary the stepping action in different ways simply by changing the sequence through which stator windings are energized. The following are the most common operating or driving modes of stepper motors.
-- Wave Step
-- Full Step
-- Half Step
-#### Wave Step Mode
-Wave step mode is the simplest of all other modes in which only one winding is energized at any given time. Each coil of the phase is connected to the supply alternatively. The table below shows the order through which coils are energized in a 4-phase stepper motor.
-In this mode motor gives maximum step angle compared to all other modes. It is the simplest and most commonly used mode for stepping; however the torque produced is less as it uses some part of the total winding at a given time.
-
-![wave step](https://user-images.githubusercontent.com/95941849/148268455-38d7239b-6c44-415a-b753-894287a390cc.png)
- 
-
 #### Full Step Mode
 - For each 360° rotation of the motor shaft, the rotor proceeds through 200 distinct steps per revolution, each exactly 1.8° (step angle). During full step operation, two of the phases on the stator are always energized **(two-winding ON)**. This provides maximum torque, but angular resolution is limited by the number of teeth on the rotor.
 - A one step in this is equal to the single pulse of the motor.
