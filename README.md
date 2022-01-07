@@ -40,8 +40,6 @@
   If the driver take high inpit the output to stepper motor will be low becouse of NPN transistors, 
   then the coil in stepper motor will be energized because 2,5 of motor connected to supply.
 
-
-
 .
 ![103941080-04c4f580-5137-11eb-8321-8c2f3d31264e](https://user-images.githubusercontent.com/47755059/147296966-64339009-3122-46e9-9774-695d0097a020.jpeg)
 
@@ -210,7 +208,8 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 ![stop](https://user-images.githubusercontent.com/47756597/148289859-29f9dd54-d028-4c71-976f-5da8bf0e7079.gif)
 
 # Final Circuit 
-  ![Screenshot (150)](https://user-images.githubusercontent.com/47756597/148290543-d2ccde3b-e2d3-4ac1-954d-3a3f12c3fc86.png)  
+![Screenshot (66)](https://user-images.githubusercontent.com/95934225/148473699-aa6615f7-4c2b-4196-86c6-bcd59233e339.png)
+
   
 **Click** [**here**](https://drive.google.com/drive/folders/1zhuB25fjYYZxuLIcEDZQoWOkNXGakEDJ?usp=sharing) **to show the full code & circuit**
    
