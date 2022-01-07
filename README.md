@@ -51,6 +51,7 @@
  
 ### 8255A I/O device
 - The 8255A is a general purpose programmable I/O device designed to transfer the data from I/O to interrupt I/O under certain conditions as required. It can be used with almost any microprocessor.
+- used to increacing i/o capability
 - It consists of three 8-bit bidirectional I/O ports (24I/O lines) which can be configured as per the requirement
  
  ### Ports of 8255A
@@ -78,6 +79,7 @@
 
 ![8255ctrl](https://user-images.githubusercontent.com/47755059/147295847-5ab952a2-bdef-4dc6-b361-0a46fd87aa08.gif)
 
+ in project we used **10000010**
 ## Stepper Motor
 **Stepper Motor** is a brushless electromechanical device which converts the train of electric pulses applied at their excitation windings into precisely defined step-by-step mechanical shaft rotation. The shaft of the motor rotates through a fixed angle for each discrete pulse. This rotation can be linear or angular.It gets one step movement for a single pulse input.
 The number of input pulses given to the motor decides the **step angle** which the stepper motor shaft turns for each pulse and hence the position of motor shaft is controlled by controlling the number of pulses.
