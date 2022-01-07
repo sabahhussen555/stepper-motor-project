@@ -30,18 +30,6 @@
 
 ![architecture_of_8086](https://user-images.githubusercontent.com/47755059/147280453-c7cec44e-4730-4c84-aa02-48998d673d51.jpg)
 
-### ULN2003A Motor driver
- The ULN2003A is an array of seven NPN Darlington transistors capable of 500 mA, 50 V output. It features common-cathode flyback diodes for switching inductive loads
-
- ![103940688-6e90cf80-5136-11eb-93fb-060149a6cfc3](https://user-images.githubusercontent.com/47755059/147296913-93db5664-0946-4257-8978-efae7d9d7727.jpeg)
-
-
- **The connection between stepper motor and ULN2003A motor driver:**
-  If the driver take high inpit the output to stepper motor will be low becouse of NPN transistors, 
-  then the coil in stepper motor will be energized because 2,5 of motor connected to supply.
-
-.
-![103941080-04c4f580-5137-11eb-8321-8c2f3d31264e](https://user-images.githubusercontent.com/47755059/147296966-64339009-3122-46e9-9774-695d0097a020.jpeg)
 
 ### 74HC373 Latch
 - The 74HC373 high speed octal D-type latches utilize advanced silicon-gate CMOS technology. They possess the high noise immunity and low power consumption of standard CMOS integrated circuits, as well as the ability to drive 15 LS-TTL loads. Due to the large output drive capability and the 3-STATE feature, these devices are ideally suited for interfacing with bus lines in a bus organized system.
@@ -80,6 +68,22 @@
 ![8255ctrl](https://user-images.githubusercontent.com/47755059/147295847-5ab952a2-bdef-4dc6-b361-0a46fd87aa08.gif)
 
  in project we used **10000010**
+ 
+### ULN2003A Motor driver
+ULN2003 IC is one of the most commonly used Motor driver IC generally used when we need to drive high current loads using digital logic circuits like Op-maps, Timers, Gates, Arduino, PIC, ARM etc. For example a motor that requires 12V and 350mA to run cannot be powered by an Arduino I/O hence we use this IC to source enough current and voltage for the load. 
+#### ULN2003 Features
+- Contains 7 high-voltage and high current Darlington pairs , Each pair is rated for 50V and 500mA.
+- Input pins can be triggered by +5V
+- All seven Output pins can be connected to gather to drive loads up to (7×500mA) ~3.5A.
+
+ This IC is commonly used to drive Relay modules, Motors, high current LEDs and even Stepper Motors. So if you have anything that anything more than 5V 80mA to work, then this IC would be the right choice for you.
+ 
+![uln2003a-7x-darlington-array](https://user-images.githubusercontent.com/47756597/148477635-0d82b848-d72a-4aec-9c97-c5ba0f72828d.jpg)
+ 
+ The connection between stepper motor and ULN2003A motor driver:
+If the driver take high input the output to stepper motor will be low becouse of NPN transistors, then the coil in stepper motor will be energized because 2,5 of motor connected to supply.
+![XUC5e](https://user-images.githubusercontent.com/47756597/148477717-e5370f8b-ae02-409a-81ae-c0ef1a0d589c.gif)
+ 
 ## Stepper Motor
 **Stepper Motor** is a brushless electromechanical device which converts the train of electric pulses applied at their excitation windings into precisely defined step-by-step mechanical shaft rotation. The shaft of the motor rotates through a fixed angle for each discrete pulse. This rotation can be linear or angular.It gets one step movement for a single pulse input.
 The number of input pulses given to the motor decides the **step angle** which the stepper motor shaft turns for each pulse and hence the position of motor shaft is controlled by controlling the number of pulses.
@@ -210,7 +214,8 @@ In this mode motor gives maximum step angle compared to all other modes. It is t
 ![stop](https://user-images.githubusercontent.com/47756597/148289859-29f9dd54-d028-4c71-976f-5da8bf0e7079.gif)
 
 # Final Circuit 
-![Screenshot (66)](https://user-images.githubusercontent.com/95934225/148473699-aa6615f7-4c2b-4196-86c6-bcd59233e339.png)
+
+![Final Circuit](https://user-images.githubusercontent.com/47756597/148477770-d39d5e4a-d064-4b51-8a6c-cb3bf1904316.png)
 
   
 **Click** [**here**](https://drive.google.com/drive/folders/1zhuB25fjYYZxuLIcEDZQoWOkNXGakEDJ?usp=sharing) **to show the full code & circuit**
